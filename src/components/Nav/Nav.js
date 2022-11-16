@@ -2,7 +2,6 @@ import React,{useState} from 'react'
 import logo from "../Assets/logo.jpg"
 import brand from "../Assets/name.jpg"
 import "./nav.css"
-import Hamburger from './Hamburger'
 import Modal from '../Modal/Modal'
 
 const Nav = () => {
@@ -24,9 +23,6 @@ const Nav = () => {
             <div className='wallet'>
                 <button onClick={()=>setShowModal(true)}>Connect wallet</button>
             </div>
-            {/* <div className='hamcontainer'>
-                <Hamburger />
-            </div> */}
         </div>
         <Modal open={showmodal} setShowModal={setShowModal}/>
     </div>
