@@ -1,0 +1,28 @@
+.placeCon{
+    margin: 3rem 4rem;
+}
+.placeCon .allplaces{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+.allplaces .place{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+@media (max-width: 768px){
+    .allplaces .place{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+}
+@media (max-width: 768px){
+    .allplaces .place{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
