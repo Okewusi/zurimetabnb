@@ -19,7 +19,10 @@
         grid-gap: 20px;
     }
 }
-@media (max-width: 768px){
+@media (max-width: 400px){
+    .placeCon{
+        margin: 0 1.5rem;
+    }
     .allplaces .place{
         display: flex;
         flex-direction: column;
